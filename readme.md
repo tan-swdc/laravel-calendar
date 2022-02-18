@@ -1,4 +1,6 @@
-# Laravel 7 & 8 Full Calendar 5 Helper
+# Laravel 9 Full Calendar 5 Helper
+
+## Forked from acaronlex/laravel-calendar which has Laravel 7/8 support
 
 This is a simple helper package to make generating [http://fullcalendar.io](http://fullcalendar.io) in Laravel apps easier.
 
