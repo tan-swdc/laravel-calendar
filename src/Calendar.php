@@ -1,6 +1,6 @@
 <?php
 
-namespace Acaronlex\LaravelCalendar;
+namespace Dhonions\LaravelCalendar;
 
 use ArrayAccess;
 use DateTime;

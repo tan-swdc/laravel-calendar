@@ -1,11 +1,11 @@
 {
-    "name": "acaronlex/laravel-calendar",
+    "name": "donions/laravel-calendar",
     "description": "Laravel helper for FullCalendar.io forked from acaronlex/laravel-calendar to install on Laravel 9",
     "license": "MIT",
     "type": "package",
     "authors": [
         {
-            "name": "acaronlex",
+            "name": "laravel-calendar",
             "email": "acaronlex@outlook.com"
         }
     ],
@@ -15,16 +15,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Acaronlex\\LaravelCalendar\\": "src"
+            "Dhonions\\LaravelCalendar\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Acaronlex\\LaravelCalendar\\ServiceProvider"
+                "Dhonions\\LaravelCalendar\\ServiceProvider"
             ],
             "aliases": {
-                "Calendar": "Acaronlex\\LaravelCalendar\\Facades\\Calendar"
+                "Calendar": "Dhonions\\LaravelCalendar\\Facades\\Calendar"
             }
         }
     },

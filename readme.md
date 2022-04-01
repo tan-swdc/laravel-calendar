@@ -1,6 +1,6 @@
 # Laravel 9 Full Calendar 5 Helper
 
-## Forked from acaronlex/laravel-calendar which only has Laravel 7/8 support
+##This package is forked from acaronlex/laravel-calendar with a simple composer update to allow install on Laravel 9.
 
 This is a simple helper package to make generating [http://fullcalendar.io](http://fullcalendar.io) in Laravel apps easier.
 
@@ -9,7 +9,7 @@ Thanks to [@maddhatter](https://github.com/maddhatter) for the [initial repo](ht
 ## Installing
 Require the package with composer using the following command:
 
-    composer require acaronlex/laravel-calendar
+    composer require dhonions/laravel-calendar
 
 The provider and `Calendar` alias will be registered automatically.
 
@@ -37,10 +37,10 @@ $event = \Calendar::event(
 ```
 #### Implementing `Event` Interface
 
-Alternatively, you can use an existing class and have it implement `Acaronlex\LaravelCalendar\Event`. An example of an Eloquent model that implements the `Event` interface:
+Alternatively, you can use an existing class and have it implement `Dhonions\LaravelCalendar\Event`. An example of an Eloquent model that implements the `Event` interface:
 
 ```php
-class EventModel extends Eloquent implements \Acaronlex\LaravelCalendar\Event
+class EventModel extends Eloquent implements \Dhonions\LaravelCalendar\Event
 {
 
     protected $dates = ['start', 'end'];
@@ -98,10 +98,10 @@ class EventModel extends Eloquent implements \Acaronlex\LaravelCalendar\Event
 
 #### `IdentifiableEvent` Interface
 
-If you wish for your existing class to have event IDs, implement `\Acaronlex\LaravelCalendar\IdentifiableEvent` instead. This interface extends `\Acaronlex\LaravelCalendar\Event` to add a `getId()` method:
+If you wish for your existing class to have event IDs, implement `\Dhonions\LaravelCalendar\IdentifiableEvent` instead. This interface extends `\Dhonions\LaravelCalendar\Event` to add a `getId()` method:
 
 ```php
-class EventModel extends Eloquent implements \Acaronlex\LaravelCalendar\IdentifiableEvent
+class EventModel extends Eloquent implements \Dhonions\LaravelCalendar\IdentifiableEvent
 {
 
     // Implement all Event methods ...
@@ -144,7 +144,7 @@ $event = \Calendar::event(
 
 ```php
 <?php
-class CalendarEvent extends \Illuminate\Database\Eloquent\Model implements \Acaronlex\LaravelCalendar\Event
+class CalendarEvent extends \Illuminate\Database\Eloquent\Model implements \Dhonions\LaravelCalendar\Event
 {
     //...
 
