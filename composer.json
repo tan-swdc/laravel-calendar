@@ -15,16 +15,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Tanswdc\\LaravelCalendar\\": "src"
+            "Tan-swdc\\LaravelCalendar\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Tanswdc\\LaravelCalendar\\ServiceProvider"
+                "Tan-swdc\\LaravelCalendar\\ServiceProvider"
             ],
             "aliases": {
-                "Calendar": "Tanswdc\\LaravelCalendar\\Facades\\Calendar"
+                "Calendar": "Tan-swdc\\LaravelCalendar\\Facades\\Calendar"
             }
         }
     }
