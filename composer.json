@@ -1,5 +1,5 @@
 {
-    "name": "Tanswdc/laravel-calendar",
+    "name": "tanswdc/laravel-calendar",
     "description": "Laravel helper for FullCalendar.io forked from acaronlex/laravel-calendar to install on Laravel 9",
     "license": "MIT",
     "type": "package",
