@@ -1,5 +1,5 @@
 {
-    "name": "tan-swdc/laravel-calendar",
+    "name": "tswdc/laravel-calendar",
     "description": "Laravel helper for FullCalendar.io forked from acaronlex/laravel-calendar to install on Laravel 9",
     "license": "MIT",
     "type": "package",
@@ -15,16 +15,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Tan-swdc\\LaravelCalendar\\": "src"
+            "Tswdc\\LaravelCalendar\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Tan-swdc\\LaravelCalendar\\ServiceProvider"
+                "Tswdc\\LaravelCalendar\\ServiceProvider"
             ],
             "aliases": {
-                "Calendar": "Tan-swdc\\LaravelCalendar\\Facades\\Calendar"
+                "Calendar": "Tswdc\\LaravelCalendar\\Facades\\Calendar"
             }
         }
     }
