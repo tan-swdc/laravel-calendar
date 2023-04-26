@@ -27,6 +27,5 @@
                 "Calendar": "Tanswdc\\LaravelCalendar\\Facades\\Calendar"
             }
         }
-    },
-    "minimum-stability": "stable"
+    }
 }
