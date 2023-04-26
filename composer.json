@@ -1,5 +1,5 @@
 {
-    "name": "donions/laravel-calendar",
+    "name": "Tanswdc/laravel-calendar",
     "description": "Laravel helper for FullCalendar.io forked from acaronlex/laravel-calendar to install on Laravel 9",
     "license": "MIT",
     "type": "package",
@@ -11,20 +11,20 @@
     ],
     "require": {
         "php": ">=8.0.2",
-        "illuminate/support": "^8.75 || ^9.0"
+        "illuminate/support": "^8.75 || ^9.0 || ^10.0"
     },
     "autoload": {
         "psr-4": {
-            "Dhonions\\LaravelCalendar\\": "src"
+            "Tanswdc\\LaravelCalendar\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Dhonions\\LaravelCalendar\\ServiceProvider"
+                "Tanswdc\\LaravelCalendar\\ServiceProvider"
             ],
             "aliases": {
-                "Calendar": "Dhonions\\LaravelCalendar\\Facades\\Calendar"
+                "Calendar": "Tanswdc\\LaravelCalendar\\Facades\\Calendar"
             }
         }
     },
